@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+h1 {
+    padding-bottom: 15px;
+    font-size: 60px;
+    color: rgb(1, 1, 68);
+    cursor: default;
+}
+
+#counter {
+    padding-bottom: 10px;
+    font-size: 70px;
+    color: green;
+    cursor: default;
+}
+
+.clicks {
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+
+.clicks li {
+    display: inline-block;
+    margin-right: 20px;
+    border: 2px solid black;
+    padding: 3px 20px;
+    border-radius: 10px;
+}
